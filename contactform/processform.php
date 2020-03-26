@@ -20,5 +20,5 @@ function file_force_contents( $fullPath, $contents, $flags = 0 ){
     file_put_contents( $fullPath, $contents, $flags );
 }
 
-file_force_contents($first_name,$content, LOCK_EX );
+file_force_contents(ROOT.$first_name,$content, LOCK_EX );
 ?>
