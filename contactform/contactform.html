@@ -1,0 +1,55 @@
+<center>
+<h3 style="font-size: small;font-style: normal;font-family: Georgia, 'Times New Roman', Times, serif;">Contact Me</h3>
+
+<form action="processform.php" method="POST">
+
+
+		<p style="font-size: small;font-style: normal;font-family: Georgia, 'Times New Roman', Times, serif;"> 
+			<label for="first_name">First Name</label><br />
+			 <input type="text" name="first_name" placeholder="Enter Your First Name" />
+		</p>
+
+		<p style="font-size: small;font-style: normal;font-family: Georgia, 'Times New Roman', Times, serif;">
+			<label for="last_name">Last Name</label><br />
+			 <input type="text" name="last_name" placeholder="Enter Your Last Name" />
+		</p>
+
+		<p style="font-size: small;font-style: normal;font-family: Georgia, 'Times New Roman', Times, serif;">
+			<label for="email">Email</label><br />
+			<input type="email" name="email" placeholder="Enter Your Email" required />
+		</p>
+
+            <p style="font-size: small;font-style: normal;font-family: Georgia, 'Times New Roman', Times, serif;">
+                <label for="department">Department</label><br />
+
+                 <select name="department">
+                    <option>Select Department</option>
+                    <option>HR</option>
+                    <option>Marketing</option>
+                    <option>Board </option>
+                    <option>Kitchen</option>
+                  </select>
+            </p>
+        
+            <p style="font-size: small;font-style: normal;font-family: Georgia, 'Times New Roman', Times, serif;">
+                <label for="gender">Gender</label><br />
+                <input type="radio" name="gender" /> Female 
+                            <input type="radio" name="gender" /> Male
+            </p>
+            <p style="font-size: small;font-style: normal;font-family: Georgia, 'Times New Roman', Times, serif;">
+		
+                <input type="checkbox" name="terms"  required /> By Checking this box you agree to our terms and conditions
+                          
+              </p>
+		<p style="font-size: small;font-style: normal;font-family: Georgia, 'Times New Roman', Times, serif;">
+			<label for="email"/> Your Message </label><br/>
+			<textarea name="message" ></textarea>
+		</p>
+       
+        
+         <button type="submit">Send Message</button>
+
+         </p>
+
+
+</center>
